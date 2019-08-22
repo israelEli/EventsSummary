@@ -1,0 +1,12 @@
+/*C5*/SET SCHEMA PUBLIC
+drop table eventlog
+create table if not exists eventlog (id varchar(15),duration smallint ,type varchar(45) NULL, host varchar(10) NULL, alert boolean default FALSE)
+INSERT INTO EVENTLOG VALUES('scsmbstgrb',5,NULL,NULL,TRUE)
+COMMIT
+DISCONNECT
+/*C6*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C7*/SET SCHEMA PUBLIC
+drop table eventlog
+create table if not exists eventlog (id varchar(15),duration smallint ,type varchar(45) NULL, host varchar(10) NULL, alert boolean default FALSE)
+DISCONNECT
