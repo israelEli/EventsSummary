@@ -22,4 +22,4 @@ Receives a file and creates alerts in database
 
 # How to use the application
 - Locate the built jar in the build/libs directory
-- java -jar eventalert-all-0.0.1-SNAPSHOT.jar *path to logfile*
+- java -jar eventalert-all-0.0.1-SNAPSHOT.jar *path-to-logfile*
