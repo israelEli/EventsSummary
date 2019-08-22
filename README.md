@@ -2,9 +2,9 @@
 Receives a file and creates alerts in database
 
 # Features
-Alert creating in hsql database
-Stand-alone jar
-Integration tests (using JUnit)
+- Alert creating in hsql database
+- Stand-alone jar
+- Integration tests (using JUnit)
 
 
 # Requirements
